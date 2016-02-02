@@ -7,6 +7,7 @@ require 'scraperwiki/simple_html_dom.php';
 //
 // // Read in a page
 $html = scraperwiki::scrape("http://www.flipkart.com/books/fiction-non-fiction/~bestsellers/pr?p%5B%5D=facets.language%255B%255D%3DEnglish&p%5B%5D=facets.binding%255B%255D%3DPaperback&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=sort%3Dprice_asc&sid=bks%2Cfnf&filterNone=true");
+echo $html;
 //
 // // Find something on the page using css selectors
 // $dom = new simple_html_dom();
